@@ -95,7 +95,7 @@
 
 .article-box {
   width: 257.1px;
-  height: 226.94px;
+  height: fit-content;
   background: #ffffff;
   padding: 2vw;
   box-shadow: 9px 7px 4px rgba(0, 0, 0, 0.25);
@@ -107,7 +107,12 @@
   font-size: 2em;
   color: #406572;
   font-family: "Raleway", sans-serif;
-  margin: 21px 0;
+  margin: 10px 0;
+}
+
+.learn-more {
+  text-align: right;
+  color: #406572;
 }
 
 /* schedule table */
@@ -165,8 +170,10 @@ td {
 }
 
 .cta-box .section-header {
-  margin: 0;
-  font-size: 2vw;
+  margin: 1vw 0 2vw 0;
+  font-size: 3vw;
+  padding: 1vw;
+  text-shadow: 2px 2px 10px darkslategrey;
 }
 
 .cta-box .p-text {
@@ -174,16 +181,16 @@ td {
 }
 
 .p-text {
-  font-size: 1.5vw;
+  font-size: large;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
   .p-text {
     font-size: 2.3vw;
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 730px) {
   .footer-section {
     height: 50vw;
     margin: 0;
@@ -200,15 +207,15 @@ td {
   }
 
   .info {
-    height: 30vw;
+    height: fit-content;
   }
 
   .p-text {
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 570px) {
   .image {
     display: none;
   }
@@ -230,6 +237,7 @@ td {
   .welcome-text {
     text-shadow: black 2px 2px 2px;
     font-size: 17vw;
+    margin: 0;
   }
 
   .head-greeting h4 {
@@ -242,9 +250,9 @@ td {
   }
 
   .contact-button {
-    width: 30vw;
-    height: 10vw;
-    font-size: 3.5vw;
+    width: 40vw;
+    height: 14vw;
+    font-size: 4.5vw;
   }
 
   .article-top-container {
@@ -280,5 +288,11 @@ td {
 
   .cta-box .p-text {
     font-size: 4.5vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .p-text {
+    font-size: 4.6vw;
   }
 }
