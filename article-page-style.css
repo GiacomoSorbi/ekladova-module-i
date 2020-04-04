@@ -1,0 +1,25 @@
+.article-cointainer {
+  width: 75%;
+  margin: auto;
+}
+
+.article-body {
+  padding: 2vw;
+}
+
+.article-header {
+  font-size: 4vw;
+  text-decoration: overline;
+}
+
+.article-picture {
+  width: 25vw;
+  float: right;
+  margin: 1vw 0 2vw 2vw;
+}
+
+.capital {
+  font-size: 5vw;
+  position: relative;
+  top: 1vw;
+}
