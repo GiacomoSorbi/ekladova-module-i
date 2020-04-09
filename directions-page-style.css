@@ -87,6 +87,10 @@
     font-size: 3.5vw;
   }
 
+  .list-item {
+    height: fit-content;
+  }
+
   .iframe-map {
     width: 80vw;
     height: 90vw;
