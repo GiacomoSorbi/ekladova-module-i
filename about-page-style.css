@@ -73,16 +73,6 @@
   text-align: center;
 }
 
-.team {
-  position: relative;
-  top: -1em;
-  text-align: center;
-  max-height: 1em;
-  font-size: 3.5vw;
-  padding: 4.92vw;
-  background-color: #ffe3e4;
-}
-
 .team-container {
   display: flex;
   flex-direction: row;
@@ -215,7 +205,7 @@
     margin: 0 0 2vw 0;
   }
   .mission-box {
-    height: 30vw;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,7 +214,7 @@
   .mission-box h2,
   .p-text-about {
     font-size: 3.5vw;
-    line-height: 5vw;
+    line-height: 6vw;
   }
 
   .h2-text-about {
@@ -232,7 +222,7 @@
   }
 
   .purple-container {
-    height: 165vw;
+    height: 170vw;
     width: 100%;
   }
 
@@ -240,18 +230,13 @@
     max-height: none;
   }
 
-  .team {
-    top: 0;
-    font-size: 5.5vw;
-  }
-
   .team-container {
     flex-wrap: wrap;
   }
 
   .member {
-    width: 48vw;
-    height: 107vw;
+    width: 50vw;
+    height: 126vw;
     margin: 1vw;
   }
 
@@ -263,6 +248,6 @@
   }
 
   .longer {
-    height: 221vw;
+    height: 377vw;
   }
 }
