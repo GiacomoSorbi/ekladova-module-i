@@ -22,8 +22,7 @@ button:hover {
 }
 
 h2 {
-  margin: 0;
-  font-size: 2vw;
+  margin: 0 0 1vw 0;
 }
 
 ol {
@@ -165,8 +164,8 @@ ol {
   }
 
   .contact-button {
-    width: 23vw;
-    font-size: 2vw;
+    width: 18vw;
+    font-size: 3vw;
   }
 
   .smaller,

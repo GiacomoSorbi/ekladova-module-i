@@ -25,21 +25,27 @@
 
 .iframe-map {
   width: 40vw;
-  height: 50vw;
+  height: 45vw;
 }
 
 @media only screen and (max-width: 1000px) {
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 800px) {
   .p-text-directions {
     font-size: 2vw;
   }
   .iframe-map {
-    width: 39vw;
-    height: 45vw;
+    width: 40vw;
+    height: 55vw;
   }
 
+  .heading {
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    font-size: 4vw;
+  }
   .description-container {
     width: 55%;
     margin: 2vw;
@@ -54,6 +60,7 @@
   .heading {
     width: 95%;
     font-size: 2em;
+    display: block;
   }
 
   .description-container {
